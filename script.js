@@ -8,5 +8,6 @@ const pokemons_number = 150;
 //jadikan async function supaya banyak lagi function boleh followup lepas function ni initiate the call
 //getPokemon akan perlukan id . kalau lebih  1 parameter kena letak dalam () cth , (id, name)
 const getPokemon = async id => {
-    
+    //declare url
+    const url = `https://pokeapi.co/api/v2/`
 }
