@@ -9,5 +9,6 @@ const pokemons_number = 150;
 //getPokemon akan perlukan id . kalau lebih  1 parameter kena letak dalam () cth , (id, name)
 const getPokemon = async id => {
     //declare url
-    const url = `https://pokeapi.co/api/v2/`
+    //guna `` supaya boleh guna template literal ${}
+    const url = `https://pokeapi.co/api/v2/${id}`;
 }
