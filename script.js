@@ -10,7 +10,7 @@ const pokemons_number = 150;
 const getPokemon = async id => {
     //declare url
     //guna `` supaya boleh guna template literal ${}
-    const url = `https://pokeapi.co/api/v2/${id}`;
+    const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
 
     //fetch resource guna url. res tu result / response
     const res = await fetch(url);
