@@ -43,3 +43,8 @@ const getPokemon = async id => {
 
 //panggil function getPokemon
 // getPokemon(1);
+
+// declare function untuk buat card tadi
+function createPokemonCard(pokemon){
+    
+}
