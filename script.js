@@ -11,4 +11,7 @@ const getPokemon = async id => {
     //declare url
     //guna `` supaya boleh guna template literal ${}
     const url = `https://pokeapi.co/api/v2/${id}`;
+
+    //fetch resource guna url. res tu result / response
+    const res = await fetch(url);
 }
