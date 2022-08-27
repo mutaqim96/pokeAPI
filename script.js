@@ -48,4 +48,6 @@ const getPokemon = async id => {
 function createPokemonCard(pokemon){
     //create html untuk card pokemon
     const pokemonEL = document.createElement('div');
+    //add class untuk boleh style 
+    pokemonEL.classList.add('pokemon');
 }
