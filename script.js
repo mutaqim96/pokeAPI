@@ -14,4 +14,11 @@ const getPokemon = async id => {
 
     //fetch resource guna url. res tu result / response
     const res = await fetch(url);
+    //dapatkan pokemon daripada res tadi, dan jadikan dia json
+    const pokemon =  res.json();
+    //test guna console.log
+    console.log(pokemon);
 }
+
+//panggil function getPokemon
+getPokemon(1);
