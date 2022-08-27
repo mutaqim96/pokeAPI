@@ -17,8 +17,8 @@ const getPokemon = async id => {
     //dapatkan pokemon daripada res tadi, dan jadikan dia json
     const pokemon = await res.json();
     //test guna console.log
-    console.log(pokemon);
+    // console.log(pokemon);
 }
 
 //panggil function getPokemon
-getPokemon(1);
+// getPokemon(1);
