@@ -33,8 +33,12 @@ const getPokemon = async id => {
     const res = await fetch(url);
     //dapatkan pokemon daripada res tadi, dan jadikan dia json
     const pokemon = await res.json();
+    
     //test guna console.log
     // console.log(pokemon);
+
+    //panggil function untuk create Pokemon Cards.
+    createPokemonCard(pokemon);
 }
 
 //panggil function getPokemon
