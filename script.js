@@ -4,6 +4,19 @@ const poke_cointainer = document.getElementById('poke_container');
 //declare total pokemon sedia ada 150. declare variable supaya senang guna dalam for loop nanti
 const pokemons_number = 150;
 
+//function untuk dapatkan semua 150 pokemon
+const fetchPokemons = async => {
+
+    //for loop untuk process each of that pokemon
+    for(let i = 1 ; i <= pokemons_number ; i++){
+        //ada async adanya await, dan panggil function pokemon tadi
+        await getPokemon(i);
+    }
+
+}
+
+
+
 //function yang akan dicall untuk dapatkan pokemon.
 //jadikan async function supaya banyak lagi function boleh followup lepas function ni initiate the call
 //getPokemon akan perlukan id . kalau lebih  1 parameter kena letak dalam () cth , (id, name)
