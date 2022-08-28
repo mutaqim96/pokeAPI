@@ -33,3 +33,8 @@ h1{
     background: #eee;
     border-radius: 20px;
 }
+
+.pokemon .img-container{
+    margin-top: 20px;
+    max-width: 90%;
+}
