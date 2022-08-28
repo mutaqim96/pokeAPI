@@ -92,7 +92,7 @@ function createPokemonCard(pokemon){
         </div>
         <div class="info">
             <span class="number">${pokemon.id}</span>
-            <h3 class="name">${pokemon.name}</h3>
+            <h3 class="name">${name}</h3>
             <small class="type">Type: <span>${type}</span></small>
         </div>
     `;
