@@ -56,6 +56,7 @@ function createPokemonCard(pokemon){
     //nama : bulbasaur , kita akan ubah b.. which is index [0] dalam string. dan append selebihnya guna slice(1), lepas [1] kita ambil
     const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 
+    //bastionbot api untuk gambar lawa tak active so, go with default
     //letakkan innerHTMl
     const pokeInnerHTML =`
         <div class="img-container">
