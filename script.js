@@ -59,7 +59,7 @@ function createPokemonCard(pokemon){
     //letakkan innerHTMl
     const pokeInnerHTML =`
         <div class="img-container">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${pokemon.id}.png" >
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" >
         </div>
         ${name}
     `;
