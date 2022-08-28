@@ -60,6 +60,6 @@ function createPokemonCard(pokemon){
     pokemonEL.innerHTML  = pokeInnerHTML;
 
     //append pokemon Element ke dalam peke_cointainer awal tadi
-    poke_cointainer.appendChild('poekmonEL');
+    poke_cointainer.appendChild(pokemonEL);
 
 }
