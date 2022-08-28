@@ -4,6 +4,24 @@ const poke_cointainer = document.getElementById('poke_container');
 //declare total pokemon sedia ada 150. declare variable supaya senang guna dalam for loop nanti
 const pokemons_number = 150;
 
+//object yang simpan type dan link kepada color.
+const colors = {
+    fire : '#FDDFDF',
+    grass : '#DEFDE0',
+    electric : '#FCF7DE',
+    water : '#DEF3FD',
+    ground : '#f4e7da',
+    rock : '#d5d5d4',
+    fairy : '#fceaff',
+    poison : '#98d7a5',
+    bug : '#f8d5a3',
+    dragon : '#97b3e6',
+    psychic : '#eaeda1',
+    flying : '#F5F5F5',
+    fighting : '#E6E0D4',
+    normal : '#F5F5F5'
+};
+
 
 
 
