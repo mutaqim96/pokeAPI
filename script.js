@@ -9,7 +9,7 @@ fetchPokemons();
 
 
 //function untuk dapatkan semua 150 pokemon
-const fetchPokemons = async => {
+const fetchPokemons = async () => {
 
     //for loop untuk process each of that pokemon
     for(let i = 1 ; i <= pokemons_number ; i++){
