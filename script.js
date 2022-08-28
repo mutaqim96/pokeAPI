@@ -4,8 +4,7 @@ const poke_cointainer = document.getElementById('poke_container');
 //declare total pokemon sedia ada 150. declare variable supaya senang guna dalam for loop nanti
 const pokemons_number = 150;
 
-//Panggil function fetchPokemons tadi. tak sure boleh tak letak kat atas declaration
-fetchPokemons();
+
 
 
 //function untuk dapatkan semua 150 pokemon
@@ -40,6 +39,9 @@ const getPokemon = async id => {
     //panggil function untuk create Pokemon Cards.
     createPokemonCard(pokemon);
 }
+
+//Panggil function fetchPokemons tadi. CONFIRM KENA LETAK LEPAS DAH DECLARE FUNCTION
+fetchPokemons();
 
 //panggil function getPokemon
 // getPokemon(1);
