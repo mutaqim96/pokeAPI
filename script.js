@@ -22,6 +22,8 @@ const colors = {
     normal : '#F5F5F5'
 };
 
+// create array yang simpan main type sahaja main_types
+const main_types = Object.keys(colors);
 
 
 
