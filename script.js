@@ -54,7 +54,7 @@ function createPokemonCard(pokemon){
     pokemonEL.classList.add('pokemon');
     //letakkan innerHTMl
     const pokeInnerHTML =`
-        ${pokemon.id}
+        ${pokemon.name}
     `;
     //add innerHTML ke dalam pokeEl
     pokemonEL.innerHTML  = pokeInnerHTML;
