@@ -79,6 +79,8 @@ function createPokemonCard(pokemon){
     //type yang keluar first. map over pokemon type , kita perlukan name dalam type . el /element tu bebas boleh jadi el boleh jadi type bebas namakan
     //element tu isinya types dalam response = el dalam map ni
     const poke_types = pokemon.types.map(el => el.type.name);
+    //loop through main_type cari matching dengn current type. find() first one yang ada dalam array tadi
+    const type = main_types.find(type => pokemon.types.indexOf(type) > -1);
     //nama : bulbasaur , kita akan ubah b.. which is index [0] dalam string. dan append selebihnya guna slice(1), lepas [1] kita ambil
     const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 
