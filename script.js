@@ -58,6 +58,9 @@ function createPokemonCard(pokemon){
 
     //letakkan innerHTMl
     const pokeInnerHTML =`
+        <div class="img-container">
+            <img src="" >
+        </div>
         ${name}
     `;
     //add innerHTML ke dalam pokeEl
