@@ -50,4 +50,12 @@ function createPokemonCard(pokemon){
     const pokemonEL = document.createElement('div');
     //add class untuk boleh style 
     pokemonEL.classList.add('pokemon');
+    //letakkan innerHTMl
+    const pokeInnerHTML =`
+    
+    `;
+    //add innerHTML ke dalam pokeEl
+    pokemonEL.innerHTML  = pokeInnerHTML;
+
+    
 }
