@@ -62,7 +62,11 @@ function createPokemonCard(pokemon){
         <div class="img-container">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" >
         </div>
-        ${name}
+        <div class="info">
+            <span class="number">${pokemon.id}</span>
+            <h3 class="name">${pokemon.name}</h3>
+            <small class="type">Type: <span>${type}</span></small>
+        </div>
     `;
     //add innerHTML ke dalam pokeEl
     pokemonEL.innerHTML  = pokeInnerHTML;
