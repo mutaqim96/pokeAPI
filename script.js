@@ -25,6 +25,9 @@ const colors = {
 // create array yang simpan main type sahaja main_types
 const main_types = Object.keys(colors);
 
+//test tengok isi main_types
+console.log(main_types);
+
 
 
 //function untuk dapatkan semua 150 pokemon
@@ -73,6 +76,9 @@ function createPokemonCard(pokemon){
     //add class untuk boleh style 
     pokemonEL.classList.add('pokemon');
 
+    //type yang keluar first. map over pokemon type , kita perlukan name dalam type . el /element tu bebas boleh jadi el boleh jadi type bebas namakan
+    //element tu isinya types dalam response = el dalam map ni
+    const poke_types = pokemon.types.map(el => el.type.name);
     //nama : bulbasaur , kita akan ubah b.. which is index [0] dalam string. dan append selebihnya guna slice(1), lepas [1] kita ambil
     const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 
