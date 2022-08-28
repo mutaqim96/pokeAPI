@@ -52,9 +52,13 @@ function createPokemonCard(pokemon){
     const pokemonEL = document.createElement('div');
     //add class untuk boleh style 
     pokemonEL.classList.add('pokemon');
+
+    //nama : bulbasaur , kita akan ubah b.. which is index [0] dalam string. dan append selebihnya guna slice(1), lepas [1] kita ambil
+    const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
+
     //letakkan innerHTMl
     const pokeInnerHTML =`
-        ${pokemon.name}
+        ${name}
     `;
     //add innerHTML ke dalam pokeEl
     pokemonEL.innerHTML  = pokeInnerHTML;
